@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(70, 73, 218);
+    /*text-shadow: 2px 2px 2px  black;*/
+}
+header {
+    display: flex;
+    height: 70px;
+    background-color: rgba(58, 194, 31, 0.808);
+    border-radius: 5px;
+    box-shadow: -3px 4px 15px rgba(1, 14, 1, 0.61);
+    margin-bottom: 10px;
+
+}
+footer {
+    display: flex;
+    height: 70px;
+    justify-content: flex-start;
+    background-color: aliceblue;
+}
+h1 {
+    font-size: 2em;
+    text-transform: capitalize;
+}
