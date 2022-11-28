@@ -55,7 +55,7 @@ function displayEtagere(){
         p.innerHTML += `<a href="${element.siteWeb}" target="blank">${element.author}</a> est l'auteur du livre : ${element.title} <br />`;
         
     }
-    let howManyBook = etagere.length;
+    howManyBook = etagere.length;
     p.innerHTML += `Il y a ${howManyBook} livres sur l'étagère.`;  
 }
 
